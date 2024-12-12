@@ -1,0 +1,19 @@
+{
+    "name": "gian/todo",
+    "description": "Um micro gerenciador de tarefas",
+    "autoload": {
+        "psr-4": {
+            "Gian\\Todo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gian Mateus",
+            "email": "gian.m.silver@gmail.com"
+        }
+    ],
+    "require": {},
+    "scripts": {
+        "run": "php -S localhost:8080"
+    }
+}
